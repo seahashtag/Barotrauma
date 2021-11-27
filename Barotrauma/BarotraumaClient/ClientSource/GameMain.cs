@@ -23,8 +23,8 @@ namespace Barotrauma
 {
     class GameMain : Game
     {
-        public static bool ShowFPS = true;
-        public static bool ShowPerf = true;
+        public static bool ShowFPS = false;
+        public static bool ShowPerf = false;
         public static bool DebugDraw;
         public static bool IsSingleplayer => NetworkMember == null;
         public static bool IsMultiplayer => NetworkMember != null;
